@@ -47,7 +47,7 @@ function displayRoute(
       origin: origin,
       destination: destination,
       waypoints: [
-        { location: "Ojo de agua Jilotepec edo.de México" },
+        { location: "CECyTEM Platel Jilotepec" },
         { location: "Iglesia Xhixhata - 'La Virgen de los Remedios'" },
       ],
       travelMode: google.maps.TravelMode.DRIVING,

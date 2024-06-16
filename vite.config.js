@@ -8,12 +8,4 @@ export default defineConfig({
         ? 443
         : undefined,
   },
-  build: {
-    outDir: 'dist', // Directorio de salida para los archivos construidos
-    rollupOptions: {
-      input: {
-        main: './index.html' // Asegúrate de que Vite sepa cuál es el archivo HTML principal
-      }
-    }
-  }
 });
